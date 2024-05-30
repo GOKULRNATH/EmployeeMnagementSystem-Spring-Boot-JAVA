@@ -33,12 +33,5 @@ public class DepartmentController {
 		return department;
 		
 	}
-	@PostMapping("/deptsave")
-	public Department saveDepartments(@RequestBody Department department) {
-		departmentService.saveDepartment(department);
-		System.out.println("Intered");
-		return department;
-		
-	}
 
 }
